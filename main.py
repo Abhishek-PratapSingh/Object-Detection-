@@ -1,7 +1,7 @@
 import cv2
 thres = 0.45 # Threshold to detect object
 
-cap = cv2.VideoCapture('https://25.142.196.171:8080/video')
+cap = cv2.VideoCapture(1) //local address of your ip webcam
 cap.set(3,1280)
 cap.set(4,720)
 cap.set(10,70)
